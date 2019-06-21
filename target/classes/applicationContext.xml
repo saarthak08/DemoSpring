@@ -5,8 +5,15 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
+        <!-- Add a logger config to see logging messages.
+        - For more detailed logs, set values to "Finest"
+        - For info on logging levels, see http://www.vogella.com/tutorials/article.html
+             -->
+        <bean id="myLoggerConfig" class="com.sg.SpringDemo.Logger.MyLoggerConfig" init-method="initLogger">
+                <property name="rootLoggerLevel" value="FINE"/>
+                <property name="printedLoggerLevel" value="FINE"/>
+        </bean>
         <bean id="myCoach"
         class="com.sg.SpringDemo.TrackCoach">
         </bean>
-
 </beans>
