@@ -1,5 +1,8 @@
-package com.sg.SpringDemo.di.xml;
+package com.sg.SpringDemo.di;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class HappyFortuneClass implements FortuneService {
 
     public String getFortune(){

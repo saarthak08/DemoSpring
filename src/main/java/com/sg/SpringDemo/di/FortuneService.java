@@ -1,4 +1,5 @@
-package com.sg.SpringDemo.di.xml;
+package com.sg.SpringDemo.di;
+
 
 public interface FortuneService {
 

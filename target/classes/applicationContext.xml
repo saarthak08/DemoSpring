@@ -16,7 +16,7 @@
                 <property name="printedLoggerLevel" value="FINE"/>
         </bean>
         <bean id="myFortune"
-        class="com.sg.SpringDemo.di.xml.HappyFortuneClass">
+        class="com.sg.SpringDemo.di.HappyFortuneClass">
         </bean>
         <bean id="myCoach"
         class="com.sg.SpringDemo.BaseballCoach">
