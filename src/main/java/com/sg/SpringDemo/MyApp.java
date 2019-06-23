@@ -1,6 +1,6 @@
 package com.sg.SpringDemo;
 
-import com.sg.SpringDemo.BeanScopeLifeCycle.TrackCoach;
+import com.sg.SpringDemo.BeanScopeLifeCycleViaXML.TrackCoach;
 
 public class MyApp {
     public static void main(String[] args){

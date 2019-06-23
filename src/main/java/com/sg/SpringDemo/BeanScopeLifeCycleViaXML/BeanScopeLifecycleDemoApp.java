@@ -1,4 +1,4 @@
-package com.sg.SpringDemo.BeanScopeLifeCycle;
+package com.sg.SpringDemo.BeanScopeLifeCycleViaXML;
 
 import com.sg.SpringDemo.Coach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

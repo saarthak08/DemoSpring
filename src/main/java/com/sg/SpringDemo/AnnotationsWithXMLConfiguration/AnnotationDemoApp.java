@@ -1,6 +1,7 @@
-package com.sg.SpringDemo.annotations;
+package com.sg.SpringDemo.AnnotationsWithXMLConfiguration;
 
 import com.sg.SpringDemo.Coach;
+import com.sg.SpringDemo.AnnotationsWithXMLConfiguration.di.TennisCoach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class AnnotationDemoApp {
@@ -11,11 +12,18 @@ public class AnnotationDemoApp {
         //get the bean from spring container
         Coach coach=context.getBean("thatSillyCoach",Coach.class);
 
-        Coach theCoach=context.getBean("tennisCoach",Coach.class);
+        TennisCoach theCoach=context.getBean("tennisCoach",TennisCoach.class);
         //call a method on the bean
         System.out.println(coach.getDailyWorkout());
 
         System.out.println(theCoach.getDailyFortune());
+
+        System.out.println(theCoach.getEmail());
+        System.out.println(theCoach.getTeam());
+        boolean result=(coach==theCoach);
+
+        System.out.println("Memory Location for theCoach: "+theCoach);
+        System.out.println("Memory Location for Coach: "+coach);
         //close the context
         context.close();
     }

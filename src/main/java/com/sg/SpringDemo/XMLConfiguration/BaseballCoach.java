@@ -1,6 +1,7 @@
-package com.sg.SpringDemo;
+package com.sg.SpringDemo.XMLConfiguration;
 
-import com.sg.SpringDemo.di.FortuneService;
+import com.sg.SpringDemo.Coach;
+import com.sg.SpringDemo.FortuneService;
 
 public class BaseballCoach implements Coach {
     private FortuneService fortuneService;

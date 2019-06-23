@@ -1,5 +1,6 @@
-package com.sg.SpringDemo;
+package com.sg.SpringDemo.XMLConfiguration;
 
+import com.sg.SpringDemo.Coach;
 import com.sg.SpringDemo.Logger.MyLoggerConfig;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

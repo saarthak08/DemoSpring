@@ -1,8 +1,8 @@
-package com.sg.SpringDemo.BeanScopeLifeCycle;
+package com.sg.SpringDemo.BeanScopeLifeCycleViaXML;
 
 
 import com.sg.SpringDemo.Coach;
-import com.sg.SpringDemo.di.FortuneService;
+import com.sg.SpringDemo.FortuneService;
 
 
 public class TrackCoach implements Coach {

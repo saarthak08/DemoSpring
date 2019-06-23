@@ -1,4 +1,4 @@
-package com.sg.SpringDemo.di.xml;
+package com.sg.SpringDemo.XMLConfiguration.di;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

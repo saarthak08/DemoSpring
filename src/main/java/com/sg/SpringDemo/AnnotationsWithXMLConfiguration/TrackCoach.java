@@ -1,7 +1,6 @@
-package com.sg.SpringDemo.annotations;
+package com.sg.SpringDemo.AnnotationsWithXMLConfiguration;
 
 import com.sg.SpringDemo.Coach;
-import com.sg.SpringDemo.di.FortuneService;
 import org.springframework.stereotype.Component;
 
 @Component("thatSillyCoach")

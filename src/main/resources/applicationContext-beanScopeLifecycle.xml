@@ -15,11 +15,11 @@
         <property name="printedLoggerLevel" value="FINE"/>
     </bean>
     <bean id="myFortune"
-          class="com.sg.SpringDemo.di.HappyFortuneClass">
+          class="com.sg.SpringDemo.HappyFortuneClass">
     </bean>
     <!-- You can add scope="prototype also. But in prototype scope, destroy method isn't called."-->
     <bean id="myCoach"
-          class="com.sg.SpringDemo.BeanScopeLifeCycle.TrackCoach"
+          class="com.sg.SpringDemo.BeanScopeLifeCycleViaXML.TrackCoach"
           init-method="doMyStartupStuff"
           destroy-method="doMyCleanupStuff">
         <constructor-arg ref="myFortune"/>

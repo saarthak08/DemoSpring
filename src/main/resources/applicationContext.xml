@@ -16,14 +16,14 @@
                 <property name="printedLoggerLevel" value="FINE"/>
         </bean>
         <bean id="myFortune"
-        class="com.sg.SpringDemo.di.HappyFortuneClass">
+        class="com.sg.SpringDemo.HappyFortuneClass">
         </bean>
         <bean id="myCoach"
-        class="com.sg.SpringDemo.BaseballCoach">
+        class="com.sg.SpringDemo.XMLConfiguration.BaseballCoach">
                 <constructor-arg ref="myFortune"/>
         </bean>
         <bean id="myCricketCoach"
-        class="com.sg.SpringDemo.di.xml.CricketCoach">
+        class="com.sg.SpringDemo.XMLConfiguration.di.CricketCoach">
                 <property name="fortuneService" ref="myFortune"/>
                <!--
                 <property name="emailAddress" value="saarthakgupta08@gmail.com"/>
